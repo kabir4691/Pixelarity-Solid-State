@@ -3,87 +3,8 @@
   Eric Meyer's Reset
   ========================================
 */
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -92,17 +13,7 @@ video {
 	vertical-align: baseline;
 }
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
@@ -110,20 +21,15 @@ body {
 	line-height: 1;
 }
 
-ol,
-ul {
+ol, ul {
 	list-style: none;
 }
 
-blockquote,
-q {
+blockquote, q {
 	quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote:before, blockquote:after, q:before, q:after {
 	content: "";
 	content: none;
 }
@@ -133,3 +39,230 @@ table {
 	border-spacing: 0;
 }
 
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* General -------------------------------- */
+
+/* body {
+	font-size: 24px;
+} */
+
+/* .section-padding {  
+	padding: 12em 3em 12.375em 3em;
+} */
+body {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+.wrapper {
+	box-sizing: border-box;
+}
+.h1 {
+	font-size:
+}
+
+h2 {
+	font-size: 1.5em;
+}
+ 
+h3 {
+	font-size: 1em;
+	font-weight: 700;
+}
+
+h4 {
+	font-size: 1.25em;
+}
+h5 {
+	font-size: 1em;
+}
+.para-text {
+	font-size: 0.8em;
+}
+.text-right {
+	text-align: right;
+}
+.white-text {
+	color: white;
+}
+
+.bg-dark-blue {
+	background-color:
+}
+
+.font-raleway {
+	font-family: 'Raleway', sans-serif;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.border-line {
+	border-bottom: 1px solid rgb(70, 76, 92);
+}
+
+.flex {
+	display: flex;
+}
+.section-padding {
+	padding: 4em 0;
+}
+.icon-small i {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20px;
+	width: 20px;
+	border: 2px solid rgba(255, 255, 255, 0.4 );
+	border-radius: 50%; 
+}
+/* Banner section-------------------------- */
+
+.banner {
+	background: linear-gradient(to bottom, rgba( 0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/bg.jpg");
+	background-size: cover;
+	padding: 8em 0 6em;
+}
+
+.banner .icon {
+	padding: 1.5em 0;
+	font-size: 25px;
+}
+
+.banner h2 {
+	letter-spacing: 2;
+	padding-bottom: 1em;
+	font-weight: bold;
+}
+
+.banner h5 {
+	letter-spacing: 2;
+	padding: 1em 0 2em;
+}
+
+.icon i {
+	/* font-size: 20px; */
+	/* padding: 10px; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	width: 50px;
+	border: 2px solid rgba(255, 255, 255, 0.4 );
+	border-radius: 50%; 
+}
+
+/* Section2 --------------------------- */
+.section2 {
+	background-color: #4C5B96;
+	/* display: flex; */
+}
+.section2 .container {
+	justify-content: center;
+	align-items: center;
+}
+.section2 h3 {
+	padding: 3em 0 1em;
+	line-height: 2;
+}
+.section2 h4 {
+	padding: 1em 0 1em;
+	line-height: 2;
+}
+.section2 h5 {
+	padding: 1em 0 1em;
+	line-height: 1.5;
+}
+.col-1-2__one {
+	width: 80%;
+}
+.col-1-2__two {
+	width: 20%;
+	padding-left: 2em;
+	width: 22em;
+	border-radius: 50%;
+}
+
+.col-1-2__two img {
+	width: 100%;
+	border-radius: 50%;
+}
+.learn-more {
+	justify-content: flex-end;
+	align-items: center;
+}
+.learn-more i {
+	border: 2px solid rgba(255, 255, 255, 0.4 );
+	padding: 5px 6px;
+	border-radius: 50%;
+	margin-right: 0.5em;
+}
+.learn-more h4 {
+	font-size: 0.8em;
+}
+
+/* Section3 --------------------------- */
+
+.section3 {
+	background-color: #45548D;
+}
+.section3 .flex {
+	justify-content: center;
+	align-items: center;
+}
+.section3 .text-content {
+	width: 70%;
+}
+.section3 .image-content {
+	width: 30%;
+	padding-right: 2em;
+}
+.section3 .text-content .learn-more {
+	justify-content: flex-start;
+}
+.section3 h3 {
+	padding: 3em 0 1em;
+	line-height: 2;
+}
+.section3 h4 {
+	padding: 1em 0 1em;
+	line-height: 2;
+}
+.section3 h5 {
+	padding: 1em 0 1em;
+	line-height: 1.5;
+}
+.image-content img {
+	width: 100%;
+	border-radius: 50%;
+
+}
+
+
+/* Section4 --------------------------- */
+
+.section4 {
+	background-color: #3F4D85;
+}
+
+.section4 .container {
+	justify-content: center;
+	align-items: center;
+}
+
+.section4 h3 {
+	padding: 3em 0 1em;
+	line-height: 2;
+}
+.section4 h4 {
+	padding: 1em 0 1em;
+	line-height: 2;
+}
+.section4 h5 {
+	padding: 1em 0 1em;
+	line-height: 1.5;
+}
